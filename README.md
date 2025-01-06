@@ -5,11 +5,11 @@
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/react-portfolio.git
+   git clone https://github.com/amixhh/portfolio-website.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
-   cd Portfolio-Website
+   cd portfolio-website
    ```
 3. **Install Dependencies**:
    ```bash
