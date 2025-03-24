@@ -1,15 +1,16 @@
 export const Bio = {
   name: "Amish",
   roles: [
-    "MERN Stack Developer",
     "Competitive Programmer",
+    "MERN Stack Developer",
+    "ML Developer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I’m a curious and driven problem-solver with a passion for building and learning. I thrive on challenges, love exploring new tech, and approach everything with a growth mindset and a can-do attitude. Always ready to collaborate, adapt, and push boundaries to create something meaningful.",
   github: "https://github.com/amixhh",
   resume:
-    "https://drive.google.com/file/d/1gC3FF2JYwYEe4DHhzM75Emg0jeMtkFap/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/amish-rao-832521279/",
+    "https://drive.google.com/file/d/12CMSPxRYb2k4JXkEXuOaRdvRFQtWfzm7/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/amishh/",
 };
 
 export const skills = [
@@ -87,12 +88,12 @@ export const skills = [
       {
         name: "Google Colab",
         image:
-          "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
+          "https://firebasestorage.googleapis.com/v0/b/portfolio-data-898a5.appspot.com/o/icons8-google-colab-48.png?alt=media&token=9c8dfbef-c657-4adf-ad23-aae670a839fd",
       },
     ],
   },
   {
-    title: "Others",
+    title: "Developer Tools",
     skills: [
       {
         name: "Git",
@@ -127,50 +128,61 @@ export const education = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-data-898a5.appspot.com/o/MUJ_LOGO.jpg?alt=media&token=078fab1d-2410-4960-8971-d1bb0370cbda",
-    school: "Manipal University Jaipur, Jaipur",
-    date: "Sep 2022 - Jun 2026",
-    grade: "8.48 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Manipal University Jaipur, Jaipur. I have completed 3 semesters and have a CGPA of 8.48. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, among others",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    school: "Manipal University Jaipur",
+    date: "Sep 2022 - May 2026",
+    grade: "9.02 CGPA",
+    desc: "Pursuing a B.Tech in Computer Science and Engineering (AI & ML) at Manipal University Jaipur, with a CGPA of 9.02(after 5 semesters). Skilled in core subjects like Data Structures, OOP, DBMS, Operating Systems, and Computer Networks.",
+    degree: "BTech, CSE(AI & ML)",
   },
   {
     id: 1,
     img: "https://firebasestorage.googleapis.com/v0/b/portfolio-data-898a5.appspot.com/o/RMVM_LOGO.jpg?alt=media&token=51f674ea-b21e-49cc-a3c2-9d93244782b4",
-    school: "Raman Munjal Vidya Mandir, gurugram",
-    date: "Apr 2020 - Apr 2022",
-    grade: "86.2%",
-    desc: "I completed my class 12 high school education at Raman Munjal Vidya Mandir, where I studied Science.",
-    degree: "CBSE(XII), Science",
-  },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/portfolio-data-898a5.appspot.com/o/RMVM_LOGO.jpg?alt=media&token=51f674ea-b21e-49cc-a3c2-9d93244782b4",
-    school: "Raman Munjal Vidya Mandir, gurugram",
-    date: "Apr 2010 - Apr 2020",
-    grade: "96.2%",
-    desc: "I completed my class 10 education at Raman Munjal Vidya Mandir, gurugram",
-    degree: "CBSE(X)",
+    school: "Raman Munjal Vidya Mandir",
+    date: "Apr 2010 - Apr 2022",
+    grade: "X - 96.2%, XII - 86.2%",
+    desc: "Studied Science(PCM) in high school, scoring 96.2% in Class 10 and 86.2% in Class 12. Held leadership roles as Cultural Secretary and Vice Head Boy.",
+    degree: "CBSE(X & XII)",
   },
 ];
 
 export const projects = [
   {
     id: 11,
-    title: "Netflix Clone",
-    date: "Jan 2024",
+    title: "BroCode",
+    date: "November 2024",
     description:
-      "A Netflix Clone Made With HTML5 , CSS , Javascript , React",
+      "A real-time collaborative code editor with multi-lang execution, room-based coding sessions.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-data-898a5.appspot.com/o/Screenshot%20(126).png?alt=media&token=87f1ec8d-69a2-44c3-90dd-6202ad93cbe6",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-data-898a5.appspot.com/o/Screenshot%20(226).png?alt=media&token=d0c77a45-ba97-4b51-9339-2bdb24a01dcd",
     tags: [
-      "React Js",
-      "HTML5",
-      "CSS",
-      "JavaScript",
+      "Next Js",
+      "Express JS",
+      "Socket.io",
+      "Yjs",
     ],
     category: "web app",
-    github: "https://github.com/amixhh/Netflix-Clone?tab=readme-ov-file",
-    webapp: "https://steady-semifreddo-0e1934.netlify.app/",
+    github: "https://github.com/amixhh/BroCodes",
+    // webapp: "https://steady-semifreddo-0e1934.netlify.app/",
+  },
+
+  {
+    id: 11,
+    title: "Legally AI",
+    date: "January 2025",
+    description:
+      "An AI-powered platform that delivers legal explanations, advice, legal doc summarization.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-data-898a5.appspot.com/o/Screenshot%20(225).png?alt=media&token=17e7356a-d737-46d1-8d16-02b46038cd51",
+    tags: [
+      "Next Js",
+      "Node JS",
+      "MongoDB",
+      "Python",
+      "Stremlit",
+    ],
+    category: "machine learning",
+    github: "https://github.com/amixhh/legally-ai",
+    // webapp: "https://steady-semifreddo-0e1934.netlify.app/",
   },
 
   {
@@ -178,7 +190,7 @@ export const projects = [
     title: "Sarcastic Twitter Bot",
     date: "March 2024",
     description:
-      "A Sarcatic Twitter bot that is capable of replying in a sarcastic manner",
+      "A Sarcatic Twitter bot that is capable of replying in a sarcastic manner.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-data-898a5.appspot.com/o/Screenshot%20(129).png?alt=media&token=2abdbc30-9cd6-4dee-a155-e94cfcad6e4c",
     tags: ["OpenAI", "Airtable", "Jupyter", "Python"],
@@ -191,12 +203,30 @@ export const projects = [
     title: "Self Driving Car",
     date: "April 2024",
     description:
-      "A Self Driving Car using NEAT which is capable of driving wihout the help of a Human",
+      "A Self Driving Car Simulation using NEAT which is capable of driving wihout the help of a Human.",
     image:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-data-898a5.appspot.com/o/Screenshot%20(120).png?alt=media&token=4f671aab-af34-4192-aafe-245dda536f00",
     tags: ["Python", "NEAT", "TensorFlow", "Jupyter"],
     category: "machine learning",
     github: "https://github.com/amixhh/Self-Driving-Car",
+  },
+
+  {
+    id: 11,
+    title: "To-Do App",
+    date: "June 2024",
+    description:
+      "A minimalistic to-do list app that allows users to add, edit, complete, and delete tasks.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-data-898a5.appspot.com/o/Screenshot%20(224).png?alt=media&token=7972196f-662c-4c49-94de-b09de54d0be3",
+    tags: [
+      "HTML5",
+      "CSS",
+      "JavaScript",
+    ],
+    category: "web app",
+    github: "https://github.com/amixhh/To-Do-App",
+    webapp: "https://the-planning-app.netlify.app/",
   },
 ];
 

@@ -101,7 +101,7 @@ const Projects = () => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. Here are some of my projects.
+          I've explored a variety of ideas through hands-on projects. Here are a few I'm proud of.
         </Desc>
 
         <ToggleButtonGroup>
@@ -116,7 +116,7 @@ const Projects = () => {
             active={toggle === "web app"}
             onClick={() => setToggle("web app")}
           >
-            WEB APP"S
+            WEB APP'S
           </ToggleButton>
           <Divider />
           <Divider />

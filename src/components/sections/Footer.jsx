@@ -91,7 +91,7 @@ const Footer = () => {
             <LinkedIn />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Amish. All rights reserved.</Copyright>
+        <Copyright>&copy; 2025 Amish. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
